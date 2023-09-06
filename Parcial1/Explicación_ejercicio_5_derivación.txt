@@ -1,0 +1,20 @@
+Para resolver este ejercicio seguí el siguiente desarrollo:
+1: Puesto que nuestro resultado debe constar de f(x+2h) y f(x-2h), 
+tengo que utilizar sus dos expresiones bajo la forma de una serie 
+de Taylor, así como las de f(x+h) y f(x-h)
+2: Como no sé con exactitud si tengo que sumarlas o restarlas entre sí, 
+las multiplico por un coeficiente desconocido y las sumo entre ellas.
+3: Obtengo el resultado separando la cuarta derivada del resto de la ecuación.
+4: Empiezo a buscar el valor de cada coeficiente a, b, c y d con relación
+al resultado que tenemos que obtener.
+5: Verifico que estos coeficientes sean los correctos al operar con f(x)
+6: Al darme cuenta que sólo sumando no obtendré el resultado, concluyo que 
+c y d han de ser restados y no sumados.
+7: Procedo con el resto de la operación, obteniendo un valor correcto para 
+la ecuación.
+8 : Sin embargo, este no es el resultado exacto, ya que no he despejado
+la cuarta derivada correctamente, por lo que hago esta operación sobre una
+variable inventada, x, y obtengo que todos los coeficientes obtenidos han 
+de ser -3/5 de los previamente calculados. 
+9: De esta manera, he encontrado la suma correcta para llegar a este resultado, 
+así como el orden de error de esta aproximación, que sería de h^(-2).
